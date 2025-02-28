@@ -1,17 +1,20 @@
 {
   "name": "week2",
   "version": "1.0.0",
-  "description": "",
-  "main": "soal1.js",
+  "description": "task weekly 2",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "M Sandi Maulana Y",
   "license": "ISC",
   "type": "module",
   "dependencies": {
     "consola": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
